@@ -10,7 +10,7 @@
 * create a postgres user:
         <tt>createuser -W userpg</tt>
 * create the db:
-        <tt>createdb postgres -O disasters_help</tt>
+        <tt>createdb disasters_help</tt>
 * login to the postgres console:
         <tt>psql disaster_help</tt>
 * <tt> CREATE ROLE userpg WITH LOGIN SUPERUSER PASSWORD 'the_password'</tt>
